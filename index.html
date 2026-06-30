@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Input Data</h2>
+
+    <form id="dataForm">
+
+        <label>Nama</label>
+        <input type="text" id="nama" required>
+
+        <label>NIM</label>
+        <input type="text" id="nim" required>
+
+        <label>Jenis Layanan</label>
+        <select id="layanan" required>
+            <option value="">-- Pilih --</option>
+            <option>Akademik</option>
+            <option>Administrasi</option>
+            <option>Konsultasi</option>
+        </select>
+
+        <label>Keterangan</label>
+        <textarea id="keterangan" required></textarea>
+
+        <button type="submit">Simpan Data</button>
+
+    </form>
+
+    <a href="tabel.html" class="btn">Lihat Tabel Data</a>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
